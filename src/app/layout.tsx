@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Script from 'next/script';
 import * as React from 'react';
 
 import '@/styles/globals.css';
@@ -56,6 +57,12 @@ export default function RootLayout({
 }) {
   return (
     <html>
+      <head>
+        <Script
+          src='https://kit.fontawesome.com/5771aeca78.js'
+          crossOrigin='anonymous'
+        ></Script>
+      </head>
       <body>{children}</body>
     </html>
   );
