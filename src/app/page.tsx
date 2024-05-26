@@ -4,7 +4,10 @@ import * as React from 'react';
 import '@/lib/env';
 
 import CallToAction from '@/components/CallToAction';
+import Features from '@/components/Features';
+import Feedback from '@/components/Feedback';
 import HeroIntro from '@/components/HeroIntro';
+import HowItWork from '@/components/HowItWork';
 /**
  * SVGR Support
  * Caveat: No React Props Type.
@@ -24,6 +27,9 @@ export default function HomePage() {
       <Navbar />
       <HeroIntro />
       <CallToAction />
+      <Features />
+      <HowItWork />
+      <Feedback />
     </>
   );
 }

@@ -6,7 +6,7 @@ export const navbarListItem = [
   },
   {
     href: '#process',
-    text: 'Why Shipable?',
+    text: 'Process',
     className: 'nav-link fw-bold text-dark',
   },
   {

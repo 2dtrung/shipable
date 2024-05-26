@@ -11,7 +11,12 @@ export default function Navbar() {
     <nav className='navbar navbar-expand-lg navbar-light px-0 py-3 py-md-4 sticky-top bg-white'>
       <div className='container-xl max-w-screen-xl'>
         <a className='navbar-brand'>
-          <Image src='svg/shipable-logo.svg' alt='Shipable Logo' height='48' />
+          <Image
+            src='svg/shipable-logo.svg'
+            alt='Shipable Logo'
+            height={48}
+            width={162}
+          />
         </a>
         <button
           onClick={handleClickOnHamburger}
