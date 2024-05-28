@@ -140,7 +140,8 @@ export default function Feedback() {
                   className='btn btn-lg btn-primary border border-dark border-2 ff-heading fw-bold px-4 py-3 mt-5 mb-5'
                   href='/request'
                 >
-                  <i className='fa-solid fa-sailboat me-2'></i>
+                  <i className='fa-solid fa-sailboat me-2' />
+                  Get unblocked today
                 </a>
               </div>
             </div>

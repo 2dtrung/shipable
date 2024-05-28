@@ -4,8 +4,10 @@ import * as React from 'react';
 import '@/lib/env';
 
 import CallToAction from '@/components/CallToAction';
+import FAQ from '@/components/FAQ';
 import Features from '@/components/Features';
 import Feedback from '@/components/Feedback';
+import Footer from '@/components/Footer';
 import HeroIntro from '@/components/HeroIntro';
 import HowItWork from '@/components/HowItWork';
 /**
@@ -16,6 +18,8 @@ import HowItWork from '@/components/HowItWork';
  * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
  */
 import Navbar from '@/components/Navbar';
+import Pricing from '@/components/Pricing';
+import Subscribe from '@/components/Subscribe';
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
@@ -29,7 +33,11 @@ export default function HomePage() {
       <CallToAction />
       <Features />
       <HowItWork />
+      <Pricing />
       <Feedback />
+      <FAQ />
+      <Subscribe />
+      <Footer />
     </>
   );
 }
